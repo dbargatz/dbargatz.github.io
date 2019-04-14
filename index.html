@@ -1,15 +1,14 @@
 ---
-layout: none
 title: Dylan's Blog
 ---
 <!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
+<title>{{ page.title }}</title>
 </head>
 <body>
 
-<h1>Hello, world!</h1>
+<h1>{{ "Hello, world!" | downcase }}</h1>
 
 </body>
 </html>
