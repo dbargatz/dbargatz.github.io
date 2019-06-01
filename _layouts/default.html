@@ -38,10 +38,11 @@
         </ul>
         {% endif %}
         
-        
-        {% for post in site.posts %}
-          <a href="{{post.url }}">{{ post.title }}</a>  
-        {% endfor %}
+        {% paginate site.posts by 5 %}        
+          {% for post in site.posts %}
+            <a href="{{post.url }}">{{ post.title }} ({{post.date | date_to_string}})</a>  
+          {% endfor %}
+        {% endpaginate %}
         
       </header>
       <section>
