@@ -38,11 +38,9 @@
         </ul>
         {% endif %}
         
-        <p>
-          {% for post in site.posts %}
-            <a href="{{post.url }}">{{ post.title }} ({{post.date | date_to_string}})</a>  
-          {% endfor %}
-        </p>
+        {% for post in site.posts %}
+          <p><a href="{{post.url }}">{{ post.title }} ({{post.date | date_to_string}})</a></p>  
+        {% endfor %}
         
       </header>
       <section>
