@@ -40,7 +40,7 @@
         
         <hr />
         <p>
-        Posts:
+        Posts:<br />
         {% for post in site.posts %}
           <a href="{{post.url }}">{{post.date | date_to_string}}: {{ post.title }}</a><br />
         {% endfor %}
