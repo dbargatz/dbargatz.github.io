@@ -4,16 +4,18 @@ title: I Will Finish...What I Started
 tags: [osdev, goals]
 ---
 
+**Updated 17 June 2019**: Using "system" as a starting point, not "toyos"; fixing typos.
+
 I'd like to improve on my follow-through: finishing projects that I've started, especially before moving to another. I've begun and failed to complete:
 
 * An x64 operating system.
 * A blog on wordpress.
 * Hotel[.]NET, a C# Actor/plugin framework.
 * Marin, a Unity-based Link's Awakening clone.
-* system, another x64 operating system.
+* Toyos, another x64 operating system.
 * An Age of Empires clone based in Unity.
 * A blog on Github Pages.
-* Toyos, a third x64 operating system.
+* system, a third x64 operating system.
 
 Those are a lot of unfinished projects! To be fair, I've learned a lot from each one, and none of these them can really be "finished"; there's always more bugs to fix, features to implement, or posts to make. They also follow cyclical themes: operating systems, games, and blogs, so while I abandon projects, I don't abandon concepts or topics - each attempt teaches me a little more. This is not a pattern I want to continue, though!
 
@@ -38,7 +40,7 @@ T                        Time
                
 1. **Euphoria:** PROJECT A IS GOING TO BE AMAZING! I have so many GREAT ideas! Let's put my previous attempt at A in the garbage WHERE IT BELONGS!
 1. **Bargaining:** I read an article about Subject B yesterday...that is SUPER COOL, and I have some pretty good ideas on how I could implement it. On a COMPLETELY UNRELATED NOTE, I forgot how hard building an A is, and it's taken a ton of work to get anywhere. I'm tired of A. Why not work on something simpler and more exciting?
-1. **Delusion:** I need to persevere and keep working on Project A. Maybe work on A and B and the same time? An hour a day on one or the other, I can do that. (Spoiler: this never works.)
+1. **Delusion:** I need to persevere and keep working on Project A. Maybe work on A and B at the same time? An hour a day on one or the other, I can do that. (Spoiler: this never works.)
 1. **Doldrums:** Months pass. Work gets busy, life goes a different direction. Supplies run low. Perhaps a Project C or D come along!
 1. **Coverup:** I should probably archive Projects A and B since I've forgotten what I was doing...and make the Github projects private to HIDE MY SHAME!
 
@@ -62,7 +64,7 @@ There's a mantra from Agile/UNIX software development: ["make it work, make it r
 
 # Conclusion
 
-I'm going to re-open the "toyos" OS project and re-use what I can, then continue from there. I may post notes/plans and interesting things I've learned here, but I need to focus on the OS for now. I'll detail the basics in another post, but I'm going to get to 64-bit user mode as fast as possible.
+I'm going to re-open the "system" OS project and re-use what I can, then continue from there. I may post notes/plans and interesting things I've learned here, but I need to focus on the OS for now. I'll detail the basics in another post, but I'm going to get to 64-bit user mode as fast as possible.
 
 This will be hard! I will not like it! I will regret this. It's going to be **GREAT**!
 
