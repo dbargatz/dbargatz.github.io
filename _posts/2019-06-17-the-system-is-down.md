@@ -1,14 +1,19 @@
 ---
+excerpt_separator: <!--Excerpt-->
 layout: post
 title: The System is Down
 tags: [osdev, system]
 ---
 
-![TODO: Strong Bad GIF]
+![The Cheat...is grounded!](/assets/img/the_system_is_down.gif)
 
 I discovered that my "system" repo had the most recent commit dates, so that's the abandoned operating system repo I'll use as a starting point. This project was a moonshot that reached a maximum altitude of 4 inches, so there's a lot to do to get it into shape! 
 
+<!--Excerpt-->
+
 ## Update the directory structure.
+
+**Updated 19 June 2017**: This is complete!
 
 There aren't many files in the system repo, so this isn't a critical need. It does help me organize my thoughts and stay on track, and it's an easy thing to do, so I'll attack this first. While this post doesn't discuss future plans/designs, you can clearly see some of the ideas I have from the structure. The directory structure will look something like this:
 
@@ -33,6 +38,8 @@ There aren't many files in the system repo, so this isn't a critical need. It do
         * Bare-bones implementation of the C++ STL that can be used from user-mode or kernel-mode.
 
 ## Make the repository public.
+
+**Updated 19 June 2017**: This is complete! [The repository is here.](https://github.com/dbargatz/system)
 
 No point blogging about code nobody can see!
 
