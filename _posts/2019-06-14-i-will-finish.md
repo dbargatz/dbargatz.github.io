@@ -1,4 +1,5 @@
 ---
+excerpt_separator: <!--Excerpt-->
 layout: post
 title: I Will Finish...What I Started
 tags: [osdev, goals]
@@ -7,6 +8,7 @@ tags: [osdev, goals]
 **Updated 17 June 2019**: Using "system" as a starting point, not "toyos"; fixing typos.
 
 I'd like to improve on my follow-through: finishing projects that I've started, especially before moving to another. I've begun and failed to complete:
+<!--Excerpt-->
 
 * An x64 operating system.
 * A blog on wordpress.
