@@ -45,9 +45,13 @@ No point blogging about code nobody can see!
 
 ## Move the dev environment to Linux.
 
+**Updated 25 June 2017**: This is complete! Working around snapd issues in Ubuntu 18.04 took the longest, post/tweet incoming.
+
 System was originally developed on the Windows Subsystem for Linux; while this was a great tool and I never had any issues with it, a more traditional build environment on an Ubuntu 18.04 VM makes it less likely I'll run into environment issues.
 
 ## Build and run as-is.
+
+**Updated 25 June 2017**: This is complete! Surprisingly easy, just required removing the XWindows DISPLAY setting from the 'make qemu' rules.
 
 I haven't touched this code for a year and a half, so I forget how to build it, debug it, and run it. There are likely to be issues; for all I know, my last checkin in January 2018 broke everything. There's no point in starting from a broken codebase, so I'm going to make sure it works as-is (no matter how janky!) before refactoring or writing new code.
 
