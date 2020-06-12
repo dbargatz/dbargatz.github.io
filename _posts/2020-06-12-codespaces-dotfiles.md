@@ -9,15 +9,19 @@ I'm a big fan of [Visual Studio Code and Codespaces](https://visualstudio.micros
 I can cheaply ($5-10/month) code from anywhere so long as I have a compatible
 browser! However, I had trouble getting the dotfiles feature to work from
 within the Code IDE with the Codespaces extension: if I populated my dotfiles
-repository settings and clicked "Create New Codespace", it would error out
-immediately with "Could not access configured dot file repository". Strangely,
-creating a codespace with the browser UI and specifying my dotfiles repository
-under `Dotfiles (optional)` worked just fine.
+repository settings and clicked `Create New Codespace`, it would error out
+immediately with:
 
-The solution was extremely simple and staring me right in the face!
+```"Could not access configured dot file repository"```.
+
+Strangely, creating a codespace with the browser UI and specifying my dotfiles
+repository under `Dotfiles (optional)` worked just fine.
+
+The reason was extremely simple and staring me right in the face!
+
+**Root Cause:** I didn't have Git installed on my workstation.<br/>
+**Solution:** Install Git for Windows locally.
 <!--Excerpt-->
-
-**Answer:** I didn't have Git installed on my workstation.
 
 I do all my home development in codespaces via Visual Studio Code and the
 Codespaces extension, so I didn't think I needed Git installed on my workstation.
